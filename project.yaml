@@ -1,0 +1,8 @@
+project:
+  name: rate-limiter-mvp
+  description: "A minimal in-memory rate limiter with admin bypass support."
+  local_ip: "127.0.0.1"
+  admin_user: "admin-user"
+  default_port: 8000
+  window_seconds: 60
+  max_requests: 3

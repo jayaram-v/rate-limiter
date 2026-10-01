@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "verify-task-shell",
+			"type": "shell",
+			"command": "python -c \"print('task works')\"",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "setup-github-repo",
+			"type": "shell",
+			"command": "python \"C:\\Temp\\RateRepoSetup.py\"",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

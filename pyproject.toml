@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rate-limiter"
+version = "0.1.0"
+description = "A minimal fixed-window rate limiter"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Copilot" }]
+
+[tool.setuptools]
+packages = ["rate_limiter"]
